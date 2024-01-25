@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="info">
+        <h1>Notas Finales</h1>
+        <label>Nombre:</label>
+        <input type="text">
+        <label>Carrera</label>
+        <input type="text">
+    </div>
+    <table id="notasTabla">
+        <tr >
+            <th>Ramo</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Promedio</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td id="htmlNota1"></td>
+            <td id="htmlNota2"></td>
+            <td id="htmlNota3"></td>
+            <td id="htmlPromedio"></td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td id="cssNota1"></td>
+            <td id="cssNota2"></td>
+            <td id="cssNota3"></td>
+            <td id="cssPromedio"></td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td id="jsNota1"></td>
+            <td id="jsNota2"></td>
+            <td id="jsNota3"></td>
+            <td id="jsPromedio"></td>
+        </tr>
+
+    </table>
+
+    <button onclick="ingresarNotas()">Ingresar Notas</button>
+<script src="assets/js/datos.js" ></script>
+</body>
+</html>
