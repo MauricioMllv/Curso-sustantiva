@@ -1,4 +1,105 @@
-.carousel-indicators li {
-    width: 10px; height:10px; 
+body {
+    margin: 0;
+}
+
+#navbar {
+    background-color: #373A3C;
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37pt;
+    color: #FFFFFF;
+}
+
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-nav a {
+    color: #FFFFFF;
+}
+
+#container {
+    display: flexbox;
+    margin: 20px 150px 20px 150px;
+}
+
+#container .img-principal {
+    display: flex;
+    justify-content: start;
+}
+
+#container .text-container {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.linea-borde {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+#carrusel {
+    display: flex;
+    justify-content: center;
+    margin: 20px 150px 20px 150px;
+}
+
+#text-body {
+    display: flex;
+    justify-content: center;
+    margin: 20px 150px 20px 150px;
+    border-top: 1px solid #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#text-body .container {
+    display: flex;
+    justify-content: center;
+}
+
+#otros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 150px 20px 150px;
+
+}
+
+#otros .centrar-text {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+
+}
+
+
+#carouselExampleIndicators button {
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 }
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h2 h3 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+}
+
+
