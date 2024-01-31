@@ -1,16 +1,9 @@
 body {
     margin: 0;
+    padding: 0;
+    overflow: auto;
 }
 
-#navbar {
-    background-color: #373A3C;
-}
-
-#navbar .container-fluid {
-    display: flex;
-    justify-content: center;
-    margin: 00px 150px 00px 150px;
-}
 
 .navbar-brand {
     font-family: "Lobster", sans-serif;
@@ -29,18 +22,21 @@ body {
     color: #FFFFFF;
 }
 
-#container {
-    display: flexbox;
+#seccion {
+    display: flex;
     margin: 20px 150px 20px 150px;
 }
 
-#container .img-principal {
+#seccion .img-principal {
     display: flex;
-    justify-content: start;
+    width: 100%;
+    justify-content: center;
+    margin: 10px;
 }
 
-#container .text-container {
+#seccion .text {
     display: flex;
+    width: 100%;
     justify-content: center;
     font-family: "Cabin", sans-serif;
     font-weight: 700;
@@ -84,13 +80,13 @@ body {
     margin-bottom: 50px;
 }
 
-#text-body .container {
+#text-body .rece {
     display: flex;
     justify-content: center;
     
 }
 
-.container ul {
+.rece ul {
      list-style: none;
     padding: 0;
 }
@@ -124,22 +120,26 @@ body {
     border-radius: 50%;
 }
 
-
-
-.footer-text {
+.centrar-f {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    color: #FFFFFF;
+    justify-content: center;
 }
 
-.footer-text h2 h3 {
+.text-f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 150px;
+}
+
+.text-f h2 h3 {
     font-family: "Cabin", sans-serif;
     font-weight: 700;
 }
 
-.footer-text button {
+.text-f button {
     width: 233px;
 }
 
