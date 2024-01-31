@@ -6,6 +6,12 @@ body {
     background-color: #373A3C;
 }
 
+#navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+    margin: 00px 150px 00px 150px;
+}
+
 .navbar-brand {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
@@ -34,6 +40,8 @@ body {
 }
 
 #container .text-container {
+    display: flex;
+    justify-content: center;
     font-family: "Cabin", sans-serif;
     font-weight: 700;
     text-align: left;
@@ -42,29 +50,49 @@ body {
     margin: 20px;
 }
 
-.linea-borde {
+.botones-i button{
+    margin-right: 20px;
+}
+
+.linea-bor {
     border-bottom: 1px solid #000000;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #carrusel {
     display: flex;
     justify-content: center;
-    margin: 20px 150px 20px 150px;
+    margin: 0px 150px 0px 150px;
 }
 
 #text-body {
     display: flex;
     justify-content: center;
-    margin: 20px 150px 20px 150px;
+    margin: 0px 150px 20px 150px;
     border-top: 1px solid #000000;
-    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo {
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#preparacion {
     margin-bottom: 50px;
 }
 
 #text-body .container {
     display: flex;
     justify-content: center;
+    
+}
+
+.container ul {
+     list-style: none;
+    padding: 0;
 }
 
 #otros {
@@ -83,23 +111,37 @@ body {
 
 }
 
+.carousel-indicators {
+    position: relative !important;
+    margin: 20px;
+
+}
 
 #carouselExampleIndicators button {
-    width: 20px;
-    height: 20px;
+    background-color: #212529;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
+
+
 
 .footer-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
 }
 
 .footer-text h2 h3 {
     font-family: "Cabin", sans-serif;
     font-weight: 700;
 }
+
+.footer-text button {
+    width: 233px;
+}
+
 
 
