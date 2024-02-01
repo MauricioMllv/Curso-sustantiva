@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff;
+
+}
+
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37pt;
+}
+
+.collapse {
+    justify-content: end;
+}
+
+.linea {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media(max-width: 769px) {
+
+    .img {
+        width: 100%;
+    }
+
+    .text-header {
+        text-align: center;
+    }
+    /* #ocultar {
+      display: none;
+    } */
+  }
