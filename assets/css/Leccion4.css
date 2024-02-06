@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px 20px 150px; 
+}
+
+.container {
+    margin: 50px 150px 20px 150px;
+}
+
+.linea {
+    border-bottom: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+footer {
+    height: 200px;
+}
