@@ -1,0 +1,1 @@
+Para el diseño se busco algo simple y basico que pueda mostrar proyectos realizados, en cuanto a los colores se eligio un color llamativo a simple vista, dentro de la ejecucion del proyecto uno de los pequeños desafios que se presento fue enrutar los enlaces de cada vista del proyecto. 

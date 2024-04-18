@@ -1,0 +1,5 @@
+#084d6e (Azul oscuro principal)
+#367dab (Azul claro)
+#b5ccdb (Azul suave)
+#e4e4e4 (Gris claro)
+#d6a83e (Amarillo dorado)

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #01b670;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        .project {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portafolio</h1>
+</header>
+
+<div class="container">
+    <h2>Proyectos</h2>
+    <div class="project">
+        <h3>Proyecto 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis eaque non incidunt. Laboriosam, doloribus aliquam nemo libero possimus vitae.</p>
+        <p><a href="{% url 'proyecto1' %}" target="_self">Ver Mas</a></p>
+    </div>
+    <div class="project">
+        <h3>Proyecto 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam, neque perferendis ullam ducimus sapiente asperiores.</p>
+        <p><a href="{% url 'proyecto2' %}" target="_self">Ver Mas</a></p>
+    </div>
+    <!-- Agrega más proyectos según sea necesario -->
+</div>
+
+</body>
+</html>

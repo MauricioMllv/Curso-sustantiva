@@ -1,0 +1,59 @@
+Pasos crear proyecto python
+
+python --version (verificar version de python)
+python -m pip install --upgrade pip
+mkdir NombreCarpeta (crear carpeta para guardar el proyecto)
+python -m venv NombreProyecto (crear entorno virtual)
+NombreProyecto\Scripts\activate (activar entorno virtual)
+***- Deactivate (desactivar entorno virtual)- ***
+pip install django (instalar django dentro del entorno virtual)
+django-admin startproject NombreArchivoProyecto (crear carpeta para guardar archivos del proyecto)
+cd NombreArchivoProyecto
+python manage.py startapp NombreAplicacion
+
+***- Agregar nuestra app a setting.py -***
+==>settings.py ==> INSTALLED_APPS = [
+    			'django.contrib.admin',
+    			'django.contrib.auth',
+    			'django.contrib.contenttypes',
+    			'django.contrib.sessions',
+    			'django.contrib.messages',
+    			'django.contrib.staticfiles',
+    			'NombreAplicacion', 
+		   ]
+python manage.py makemigrations NombreAplicacion 
+
+python manage.py migrate
+
+mkdir NombreAplicacion/templates (crear carpeta templates dentro de NombreAplicacion)
++++ Crear archivo index.html dentro de templates
+
+---------------------------Rutas y Vistas ------------------------------------------------
+Dentro de Carpeta de la aplicacion
+
+==>views.py 
+	from django.shortcuts import render
+
+	def index(request):
+    		return render(request, 'index.html')
+
+==>urls.py
+	from django.contrib import admin
+	from django.urls import path
+
+	urlpatterns = [
+    		path('admin/', admin.site.urls),
+		path('', include('NombreAplicacion.urls'))
+	]
+
+Dentro de carpeta de aplicacion crear urls.py
+
+==>urlspy 
+	from django.urls import path
+	from . import views
+
+	urlpatterns = [
+    		path('', views.index, name='index'),
+    		path('ejemplo1/', views.proyecto1, name='ejemplo1'),
+    		path('ejemplo2/', views.proyecto2, name='ejemplo2'),
+	]

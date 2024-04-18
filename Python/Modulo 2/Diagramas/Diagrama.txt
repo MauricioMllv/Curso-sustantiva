@@ -1,0 +1,11 @@
+En el diagrama existen las siguienes clases: Persona, Alumno, Profesor, Asignatura y Aula
+
+Persona: tiene atributos de nombre y edad
+
+Alumno: es heredado de Persona y se le incluye un atributo llamado grado, el cual puede estudiar una asignatura
+
+Profesor: es heradado de Persona al igual que Alumno y se agrega un atributo llamado especialidad, este puede enseñar una asignatura
+
+Asignatura: posee atributos como nombre y creditos, esta representa a la materia y puede ser enseñada por un Profesor y estudiada por un Alumno
+
+Aula: tiene atributos como número y capacidad y representa al lugar donde se impartiran las clases

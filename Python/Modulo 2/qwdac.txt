@@ -1,0 +1,13 @@
+--DELETE FROM proyecto;
+--SELECT * FROM proyecto
+INSERT INTO proyecto(nombre, numero, ubicacion, depto_num) VALUES
+('Eco-Cultural', '10001', 'Santiago', '1'),
+('Red-Transporte', '10002', 'Valparaíso', '2'),
+('Des-Turístico', '10003', 'Viña del Mar', '3'),
+('Energías-Renov', '10004', 'Concepción', '4'),
+('Des-Tecnológico', '10005', 'Antofagasta', '5'),
+('Modernización', '10006', 'Iquique', '1'),
+('Agroindustrial', '10007', 'Temuco', '2'),
+('Viviendas', '10008', 'Valdivia', '3'),
+('Reciclaje-Com', '10009', 'Puerto Montt', '4'),
+('Des-Cultural', '10010', 'Arica', '5');
